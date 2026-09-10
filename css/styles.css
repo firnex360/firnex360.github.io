@@ -69,7 +69,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: 30px;
 }
 
 body {
@@ -176,8 +176,8 @@ img {
   position: relative;
   z-index: 1;
   max-width: 1100px;
-  margin: 1 auto;
-  padding: 5rem 2rem 4rem;
+  margin: 0 auto;
+  padding: 5rem 5rem 5rem;
 }
 
 .section_title {
@@ -185,18 +185,15 @@ img {
   color: var(--primary);
   text-transform: uppercase;
   letter-spacing: 3px;
+  margin-bottom: 1rem;
 }
 
 .section_label {
-
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 3px;
-}
-
-.section_title .highlight {
-  color: var(--primary);
+  margin-bottom: 1rem;
 }
 
 .section_subtitle {
@@ -205,6 +202,11 @@ img {
   margin-bottom: 0.5rem;
   margin-top: -0.75rem;
 }
+
+.section_title .highlight {
+  color: var(--primary);
+}
+
 
 /* ===========================
    Section Divider
@@ -492,11 +494,12 @@ img {
   font-size: 0.9rem;
   padding: 0 20px 16px;
   display: block;
+  opacity: 0.60;
   transition: opacity var(--transition);
 }
 
 .portfolio-card_link:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 /* ===========================
